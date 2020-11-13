@@ -1,1 +1,1 @@
-prebootcamp-coding-challenges
+python-exercises
