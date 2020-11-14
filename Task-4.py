@@ -1,20 +1,23 @@
 #Task four
+import re
+
 def numbers(x, y):
-    if x == 3 or y == 3:  #check if either number is 3
+    if x == 3 or y == 3 and re.search("3",str(x+y)) :
+
         return True
     else:
         return False
 
 #Printing the function call out
-print(numbers(3, 40))
-print(numbers(9, 3))
-print(numbers(2, 1))
+print(numbers(3, 10))
+print(numbers(11, 3))
+print(numbers(20, 3))
 print(numbers(5, 8))
 
 '''
 Output:
 True
-True
 False
+True
 False
 '''
