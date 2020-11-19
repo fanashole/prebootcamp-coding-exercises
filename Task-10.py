@@ -1,6 +1,6 @@
 #Task 10
 def string(words):
-    vowels = 'aeiouAEIOU'  #assigning lowercase and uppercase vowels to a variable
+    vowels = 'aeiouAEIOU'
     print([letter for letter in words if letter in vowels]) #checks and prints lowercase and uppercase vowel characters
 
 #function call
