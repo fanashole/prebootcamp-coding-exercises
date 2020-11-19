@@ -3,7 +3,7 @@ import math
 
 def area_of_triangle(x, y, z):
     s = int(x + y + z)/2  #calculating the semi-perimetre
-    area = math.sqrt(s*(s - x) * (s - y) * (s - z))  #calculating the area
+    area = math.sqrt(s*(s - x) * (s - y) * (s - z))
     return(area)
 
 #function call out

@@ -7,8 +7,8 @@ def characters(first, second):
     msg = ''.join(set3)
     return msg
 
-first = "codecamp"  #first input
-second = "bootcamp"  #second input
+first = "codecamp"
+second = "bootcamp"
 find_characters = characters(first, second)
 print(find_characters)
 
